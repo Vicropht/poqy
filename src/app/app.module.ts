@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { WeatherComponent } from './tools/weather/weather/weather.component';
+import { WeatherComponent } from './tools/weather/weather.component';
 
 @NgModule({
   declarations: [
