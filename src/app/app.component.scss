@@ -1,0 +1,8 @@
+.no-link {
+  color: red;
+  text-decoration: none;
+
+  &:hover {
+    font-style: italic;
+  }
+}
