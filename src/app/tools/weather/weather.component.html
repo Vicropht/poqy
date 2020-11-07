@@ -1,7 +1,7 @@
 <div class="container">
   <div class="flex-column">
     <div class="mb-4">
-      <h3 class="text-center my-4 weather-header">Search for Weather:</h3>
+      <h3 class="text-center my-4 weather-header">What's the weather in...</h3>
       <form [formGroup]="weatherSearchForm" (ngSubmit)="sendToWeatherStack(weatherSearchForm.value)">
         <div class="form-group">
           <input class="form-control" type="text" id="weatherLocation" aria-describedby="weatherLocation"
