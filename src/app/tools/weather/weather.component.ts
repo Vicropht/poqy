@@ -3,7 +3,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 import { WeatherStackService } from './weatherstack.service';
 
 @Component({
-  selector: 'app-weather',
+  selector: 'poqy-weather',
   templateUrl: './weather.component.html',
   styleUrls: ['./weather.component.scss']
 })
