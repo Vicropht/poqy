@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "poqy",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",

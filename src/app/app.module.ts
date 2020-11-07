@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { WeatherStackService } from './tools/weather/weatherstack.service';
 import { WeatherComponent } from './tools/weather/weather.component';
+import { ClockComponent } from './tools/clock/clock.component';
 
 
 @NgModule({
-  declarations: [AppComponent, WeatherComponent, HomeComponent],
+  declarations: [AppComponent, WeatherComponent, HomeComponent, ClockComponent],
   imports: [
     BrowserModule,
     HttpClientModule,
